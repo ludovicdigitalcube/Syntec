@@ -1,0 +1,45 @@
+;Informations sur le thème
+name = 'Syntec'
+description = ''
+core = '7.x'
+engine = 'phptemplate'
+screenshot = 'screenshot.png'
+base theme = 'omega'
+version = '1.x'
+
+;Styles
+stylesheets[all][]   = css/syntec.css
+stylesheets[all][]   = css/normalize.css
+
+;Scripts
+
+
+;régions
+regions[page_top] = 'Page Top'
+regions[page_bottom] = 'Page Bottom'
+regions[content] = 'Content'
+regions[branding] = 'Branding'
+regions[header] = 'Header'
+regions[navigation] = 'Navigation'
+regions[highlighted] = 'Highlighted'
+;regions[help] = Help
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = 'Second Sidebar'
+
+
+regions[top_bar]            = Top barre
+regions[header]             = En-tête
+regions[content]            = Contenu de la page
+regions[sidebar_right]      = Barre laterale droite
+regions[footer_menu]        = Pied de page - Menu
+regions[footer_cvtheque]    = Pied de page - CVThèque
+regions[footer_social]      = Pied de page - Réseau sociaux
+regions[footer_appli]       = Pied de page - Appli
+regions[footer_images]       = Pied de page - Images
+regions[footer_logo]        = Pied de page - Logo Syntec
+
+
+;Zones
+zones[header] = 'Header'
+zones[content] = 'Content'
+zones[footer] = 'Footer'
